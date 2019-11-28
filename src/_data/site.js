@@ -14,7 +14,7 @@ module.exports = {
   url: "https://christophmueller.dev", // Don't end with a slash /
   description: "",
   meta_data: {
-    theme_color: '#1a202c', // used in Chrome, Firefox OS and Opera
+    theme_color: '#87ceeb', // used in Chrome, Firefox OS and Opera
     twitter: "",
     default_social_image: ""
   },
