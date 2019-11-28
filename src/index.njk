@@ -2,19 +2,35 @@
 layout: layouts/base.njk
 ---
 
-<main class="px-4 max-w-xl mx-auto text-lg text-gray-800 text-center">
-    <img src="/static/sample.png" alt="Illustration of a hand glider getting off the ground" class="w-full">
-    <h1 class="font-bold text-3xl">Web Starter <span class="font-light text-gray-500">v{{ site.version}}</span></h1>
-    <p class="text-gray-700">Get your website off the ground and enjoy the journey.</p>
+<main class="container p-4 text-sm w-screen h-screen mx-auto flex flex-col justify-center content-center">
 
-    <ul class="md:flex my-4">
-        <li class="md:flex-auto p-2">
-            <a href="https://github.com/chrisssycollins/web-starter/zipball/master/" class="block py-3 px-5 shadow-lg font-bold bg-teal-400 text-white rounded-lg hover:bg-teal-500">Download</a>
-        </li>
-        <li class="md:flex-auto p-2">
-            <a href="https://github.com/chrisssycollins/web-starter#features" class="block py-3 px-5 shadow-lg font-bold border rounded-lg hover:bg-gray-100">Get started</a>
-        </li>
-    </ul>
+  <div id="bio" class="flex items-center justify-center flex-col text-center md:text-left md:flex-row">
+    <img class="rounded-full w-32 h-auto mb-4 md:mr-8 md:mb-0" src="static/images/christoph-mueller.jpeg" alt="Christoph Müller">
+    <div class="flex flex-col justify-center">
+      <h2 class="uppercase tracking-wide text-xl">
+        Christoph Müller
+      </h2>
+      <h2 class="uppercase tracking-wide">
+        Frontend Developer
+      </h2>
+      <div class="mt-3 flex justify-center md:justify-start">
+        <div class="flex">
+          <a class="hover:text-red-600" href="mailto:hi@christophmueller.dev">HI</a>
+        </div>
+        <div class="flex ml-6">
+          <a class="hover:text-red-600" href="https://twitter.com/grstf_" target="_blank">TW</a>
+        </div>
+        <div class="flex ml-6">
+          <a class="hover:text-red-600" href="https://github.com/Gristof" target="_blank">GH</a>
+        </div>
+        <div class="flex ml-6">
+          <a class="hover:text-red-600" href="https://www.xing.com/profile/Christoph_Mueller450/cv" target="_blank">X</a>
+        </div>
+        <div class="flex ml-6">
+          <a id="cv-toggle" class="hover:text-red-600" href="/cv">CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <p class="text-xs text-gray-500">Open source project by <a class="underline" href="https://www.chriscollins.me">Chris Collins</a>. Go and build something great, don't thank me.</p>
 </main>
