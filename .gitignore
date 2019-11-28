@@ -63,5 +63,4 @@ typings/
 # Mac
 .DS_Store
 
-# Build 
-dist
+# Build

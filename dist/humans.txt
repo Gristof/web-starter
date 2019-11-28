@@ -1,0 +1,8 @@
+
+/* TEAM */
+	Name: Christoph Müller
+	Site: https://christophmueller.dev
+	
+		
+/* SITE */
+	Doctype: HTML5
