@@ -7555,6 +7555,14 @@ video {
 
 /* html { font-family: 'Inter', sans-serif; } */
 
+*::-moz-selection {
+  background-color: rgb(151, 125, 58);
+}
+
+*::selection {
+  background-color: rgb(151, 125, 58);
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

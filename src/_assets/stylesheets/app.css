@@ -5,6 +5,10 @@
 /* @import url('https://rsms.me/inter/inter.css'); */
 /* html { font-family: 'Inter', sans-serif; } */
 
+*::selection {
+  background-color: rgb(151, 125, 58);
+}
+
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
