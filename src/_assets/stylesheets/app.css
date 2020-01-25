@@ -5,13 +5,15 @@
 @font-face {
   font-family: 'Garamond';
   font-weight: 400;
+  font-style: normal;
   src: url('static/fonts/EBGaramond-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Garamond';
-  font-weight: 500;
-  src: url('static/fonts/EBGaramond-Medium.ttf');
+  font-weight: 400;
+  font-style: italic;
+  src: url('static/fonts/EBGaramond-Italic.ttf');
 }
 
 *::selection {
@@ -28,9 +30,9 @@ body {
 }
 
 .link {
-  @apply px-px pb-px border-b border-blue-300;
+  @apply px-px pb-px border-b border-gray-400;
 }
 
 .link:hover {
- @apply bg-blue-300 text-black;
+ @apply bg-gray-400 text-black;
 }

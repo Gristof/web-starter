@@ -7556,15 +7556,19 @@ video {
 
   font-weight: 400;
 
+  font-style: normal;
+
   src: url('static/fonts/EBGaramond-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Garamond';
 
-  font-weight: 500;
+  font-weight: 400;
 
-  src: url('static/fonts/EBGaramond-Medium.ttf');
+  font-style: italic;
+
+  src: url('static/fonts/EBGaramond-Italic.ttf');
 }
 
 *::-moz-selection {
@@ -7589,11 +7593,11 @@ body {
   padding-right: 1px;
   padding-bottom: 1px;
   border-bottom-width: 1px;
-  border-color: #90cdf4;
+  border-color: #cbd5e0;
 }
 
 .link:hover {
-  background-color: #90cdf4;
+  background-color: #cbd5e0;
   color: #2a2927;
 }
 
