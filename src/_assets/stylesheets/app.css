@@ -2,22 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://rsms.me/inter/inter.css'); */
-/* html { font-family: 'Inter', sans-serif; } */
+@font-face {
+  font-family: 'Garamond';
+  font-weight: 400;
+  src: url('static/fonts/EBGaramond-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Garamond';
+  font-weight: 500;
+  src: url('static/fonts/EBGaramond-Medium.ttf');
+}
 
 *::selection {
-  background-color: rgb(151, 125, 58);
+  background-color: navajowhite;
+}
+
+html {
+  font-family: 'Garamond', serif;
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	/* -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; */
 }
 
 .link {
-  @apply px-px pb-px border-b border-gray-400;
+  @apply px-px pb-px border-b border-blue-300;
 }
 
 .link:hover {
- @apply bg-gray-400 text-gray-900;
+ @apply bg-blue-300 text-black;
 }
