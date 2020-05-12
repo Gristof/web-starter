@@ -3567,6 +3567,14 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-display {
+  font-family: Gotu;
+}
+
+.font-body {
+  font-family: Inter;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -7551,54 +7559,29 @@ video {
   z-index: auto;
 }
 
-@font-face {
-  font-family: 'Garamond';
-
-  font-weight: 400;
-
-  font-style: normal;
-
-  src: url('static/fonts/EBGaramond-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Garamond';
-
-  font-weight: 400;
-
-  font-style: italic;
-
-  src: url('static/fonts/EBGaramond-Italic.ttf');
-}
-
 *::-moz-selection {
-  background-color: navajowhite;
+  background-color: lightblue;
 }
 
 *::selection {
-  background-color: navajowhite;
-}
-
-html {
-  font-family: 'Garamond', serif;
+  background-color: lightblue;
 }
 
 body {
-  /* -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .link {
   padding-left: 1px;
   padding-right: 1px;
   padding-bottom: 1px;
-  border-bottom-width: 1px;
-  border-color: #cbd5e0;
+  background-color: #fed7d7;
 }
 
 .link:hover {
-  background-color: #cbd5e0;
-  color: #2a2927;
+  background-color: #c53030;
+  color: #f8f8f8;
 }
 
 @media (min-width: 640px) {
@@ -10540,6 +10523,14 @@ body {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-display {
+    font-family: Gotu;
+  }
+
+  .sm\:font-body {
+    font-family: Inter;
   }
 
   .sm\:font-hairline {
@@ -17468,6 +17459,14 @@ body {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-display {
+    font-family: Gotu;
+  }
+
+  .md\:font-body {
+    font-family: Inter;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -24394,6 +24393,14 @@ body {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-display {
+    font-family: Gotu;
+  }
+
+  .lg\:font-body {
+    font-family: Inter;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -31318,6 +31325,14 @@ body {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-display {
+    font-family: Gotu;
+  }
+
+  .xl\:font-body {
+    font-family: Inter;
   }
 
   .xl\:font-hairline {

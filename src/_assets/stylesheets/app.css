@@ -2,37 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Garamond';
-  font-weight: 400;
-  font-style: normal;
-  src: url('static/fonts/EBGaramond-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Garamond';
-  font-weight: 400;
-  font-style: italic;
-  src: url('static/fonts/EBGaramond-Italic.ttf');
-}
-
 *::selection {
-  background-color: navajowhite;
-}
-
-html {
-  font-family: 'Garamond', serif;
+  background-color: lightblue;
 }
 
 body {
-	/* -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale; */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .link {
-  @apply px-px pb-px border-b border-gray-400;
+  @apply px-px pb-px bg-red-200;
 }
 
 .link:hover {
- @apply bg-gray-400 text-black;
+ @apply bg-red-700 text-white;
 }
