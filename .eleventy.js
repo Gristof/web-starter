@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/static");
 
     if (process.env.ELEVENTY_ENV === 'production') {
-        // Minify HTML (including inlined CSS and JS) 
+        // Minify HTML (including inlined CSS and JS)
         eleventyConfig.addTransform("compressHTML", function (content, outputPath) {
             if (outputPath.endsWith(".html")) {
                 let minified = htmlmin.minify(content, {
@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
             return content;
         });
     }
-    
+
     // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
     eleventyConfig.addFilter('htmlDateString', (dateObj) => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
@@ -34,7 +34,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("w3cDate", function (date) {
         return date.toISOString();
     });
-
 
     return {
         dir: {

@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+.theme-light {
+  --background-primary: theme("colors.white");
+
+  --copy-primary: theme("colors.black");
+  --copy-secondary: theme("colors.gray.700");
+
+  --accent-primary: theme("colors.red.700");
+}
+
+.theme-dark {
+  --background-primary: theme("colors.black");
+
+  --copy-primary: theme("colors.white");
+  --copy-secondary: theme("colors.gray.500");
+
+  --accent-primary: theme("colors.yellow.600");
+}
+
 *::selection {
   background-color: lightblue;
 }
@@ -12,9 +30,9 @@ body {
 }
 
 .link {
-  @apply px-px pb-px bg-red-200;
+  @apply px-1 pb-px bg-copy-primary text-background-primary;
 }
 
 .link:hover {
- @apply bg-red-700 text-white;
+ @apply bg-accent-primary text-white;
 }
