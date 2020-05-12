@@ -30,9 +30,9 @@ body {
 }
 
 .link {
-  @apply px-1 pb-px bg-copy-primary text-background-primary;
+  @apply px-1 pb-px bg-gray-300 text-black;
 }
 
 .link:hover {
- @apply bg-accent-primary text-white;
+ @apply bg-gray-400;
 }

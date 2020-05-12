@@ -7806,13 +7806,12 @@ body {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
   padding-bottom: 1px;
-  background-color: var(--copy-primary);
-  color: var(--background-primary);
+  background-color: #e2e8f0;
+  color: #2a2927;
 }
 
 .link:hover {
-  background-color: var(--accent-primary);
-  color: #f8f8f8;
+  background-color: #cbd5e0;
 }
 
 @media (min-width: 640px) {
