@@ -4,6 +4,7 @@ module.exports = {
       colors: {
         black: '#2a2927',
         white: '#f8f8f8',
+        alpine: '#ffffff',
         background: {
           primary: 'var(--background-primary)',
           secondary: 'var(--background-secondary)',
